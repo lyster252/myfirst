@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+   
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+
+
+ 
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Mobile Legend</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Mobile Legend</h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;"><img src="ml.jpg" style="width: 880px; height: 160px"></div>
+      <p>Mobile Legend</p>
+      <p>
+        Mobile Legends: Bang Bang is a multiplayer online battle arena (MOBA) game designed for mobile phones. The two opposing teams fight to reach and destroy the enemy's base<br>
+        while defending their own base for control of a path, the three "lanes" known as "top", "middle", and "bottom", which connects the bases. Weaker computer-controlled characters,
+        called "minions", spawn at team bases and follow the three lanes to the opposite team's base, fighting enemies and turrets.<br><br>
+        In each team, there are five players who each control a character, known as a "hero" using analog/joystick controls. Heroes can be grouped into 6 different roles, Marksman, Assassin, Mage, Support, Fighter, and Tank.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Mobile Legends: Bang Bang Southeast Asia Cup</h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;"><img src="ml2.png" style="width: 880px; height: 160px"></div>
+      <p></p>
+      <p>Mobile Legends: Bang Bang Southeast Asia Cup (MSC), often called MLBB SEA Cup, is an annual esports tournament for the mobile MOBA game Mobile Legends: Bang Bang in Southeast Asia. The tournament consists of different teams from different countries in Southeast Asia such as Malaysia, Philippines, Indonesia, Thailand, and Singapore (Since 2017), Vietnam, and Myanmar (Since 2018), Cambodia, and Laos (Since 2019).</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <a href=""><h2>
+      About Me</h2>
+      </a>
+      
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><img src="miya.png" style="width: 220px; height: 120px"></div><br>
+      <div class="fakeimg"><img src="layla.png" style="width: 220px; height: 120px"></div><br>
+      <div class="fakeimg"><img src="freya.jpg" style="width: 220px; height: 120px"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>
+    <a href="httpswww.facebook.com"><img src="facebook.png" alt="HTML Tutorial" style="width:42px;height:42px;border:2px" class="img1"></a>
+    <a href="https://www.youtube.com/?hl=en&gl=PH"><img src="youtube.png" alt="HTML Tutorial" style="width:42px;height:42px;border:2px" class="img1"></a>
+    <a href="https://twitter.com/LOGIN"><img src="twitter.png" alt="HTML Tutorial" style="width:42px;height:42px;border:2px" class="img1"></a>
+    <a href="https://hashtag.eadplataforma.com/login/"><img src="hashtag.png" alt="HTML Tutorial" style="width:42px;height:42px;border:2px" class="img1"></a>
+  </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>
+    COPYRIGHTS
+  </h2>
+</div>
+
+
+</body>
+</html>
